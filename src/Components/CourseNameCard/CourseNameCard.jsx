@@ -23,7 +23,7 @@ const CourseNameCard = () => {
                     </div>
                     <h5 className='our_admission_card_amount'>কোর্স ফি ১০০,০০০ ৳</h5>
                     <div className='d-flex align-items-center gap-3 our_admission_card_btn'>
-                        <Link to="#" className='btn btn-outline-warning rounded-0 w-100'>Details</Link>
+                        <Link to="/our-course-details" className='btn btn-outline-warning rounded-0 w-100'>Details</Link>
                         <Link to="#" className='btn btn-outline-warning rounded-0 w-100'>Buy</Link>
                     </div>
                 </div>

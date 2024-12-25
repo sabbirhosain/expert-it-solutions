@@ -9,6 +9,7 @@ import About from "./Pages/About"
 import Contact from "./Pages/Contact"
 import ApplicationFrom from "./Pages/ApplicationFrom"
 import Courses from "./Pages/Courses";
+import CoursesDetails from "./Pages/CoursesDetails";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/our-courses" element={<Courses />} />
+        <Route path="/our-course-details" element={<CoursesDetails />} />
         <Route path="/application-from" element={<ApplicationFrom />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
