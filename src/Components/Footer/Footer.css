@@ -1,0 +1,104 @@
+/* ===== Next Batch Counter Section ===== */
+.next_batch_counter {
+    background: linear-gradient(214.38deg, #000000 -2.24%, #1f1e1e 59.38%);
+    padding: 40px 0;
+}
+
+.next_batch_title {
+    color: #fff;
+    font-family: var(--secondery-fonts);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: .20000000298023224px;
+}
+
+.next_batch_peragraph {
+    color: white;
+    font-family: var(--secondery-fonts);
+    font-size: 19px;
+    line-height: 33px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.next_batch_btn {
+    color: #fff;
+    font-family: var(--secondery-fonts);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 13px 22px;
+    text-align: center;
+    border: 1px solid #fff;
+    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+}
+
+/* ===== Footer Top Section ===== */
+.footer_section {
+    background: linear-gradient(214.38deg, #000000 -2.24%, #1f1e1e 59.38%);
+    padding: 40px 0;
+}
+
+.footer_title {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: var(--secondery-fonts);
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.contact_icon_box {
+    color: #ff1e1e;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.contact_pera {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact_pera_link {
+    color: white;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: #ff8079;
+    }
+}
+
+
+/* ===== Footer Bottom Section ===== */
+.footer_bottom {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.footer_socail_media_box {
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(53, 52, 52);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: white;
+        background-color: #ff1e1e;
+        border: 1px solid white;
+    }
+}
