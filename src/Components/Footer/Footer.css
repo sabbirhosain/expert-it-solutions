@@ -1,6 +1,6 @@
 /* ===== Next Batch Counter Section ===== */
 .next_batch_counter {
-    background: linear-gradient(214.38deg, #000000 -2.24%, #1f1e1e 59.38%);
+    background-color: #1f1e1e;
     padding: 40px 0;
 }
 
@@ -38,7 +38,7 @@
 
 /* ===== Footer Top Section ===== */
 .footer_section {
-    background: linear-gradient(214.38deg, #000000 -2.24%, #1f1e1e 59.38%);
+    background-color: #1f1e1e;
     padding: 40px 0;
 }
 

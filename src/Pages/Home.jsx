@@ -1,11 +1,10 @@
-import React from 'react'
 import Layout from '../Components/Layout/Layout'
 import { GoChecklist } from "react-icons/go";
 import { RiBookOpenLine } from "react-icons/ri";
 import { GrCertificate } from "react-icons/gr";
 import CourseName from '../Components/CourseName/CourseName';
 import CourseNameCard from '../Components/CourseNameCard/CourseNameCard';
-
+import "./Home.css";
 const Home = () => {
     return (
         <Layout>

@@ -8,9 +8,8 @@ import image6 from '../assets/cources-icons/computer-networks.png'
 import image7 from '../assets/cources-icons/social-media.png'
 import image8 from '../assets/cources-icons/engineer.png'
 import CourseNameCard from '../Components/CourseNameCard/CourseNameCard'
-
-
-
+import CourseReview from '../Components/CourseReview/CourseReview'
+import "./Courses.css"
 
 const Courses = () => {
     return (
@@ -160,13 +159,25 @@ const Courses = () => {
                         <CourseNameCard />
                         <CourseNameCard />
                     </div>
-                    <div className="row mb-5">
+                    <div className="row">
                         <h2 className='our_admission_sub_title'>ডিজাইন এন্ড মাল্টিমিডিয়া</h2>
                         <CourseNameCard />
                         <CourseNameCard />
                         <CourseNameCard />
                         <CourseNameCard />
                     </div>
+                </div>
+            </section>
+
+            <section className='our_cources_review_section'>
+                <div className="container">
+                    <div className="row justify-content-center mb-5">
+                        <div className="col-md-8">
+                            <h1 className='our_cources_review_title'>মন্তব্য</h1>
+                            <p className='our_cources_review_peragraph'>আমরা বিশ্বাস করি আমাদের প্রতিটি শিক্ষার্থী ক্রিয়েটিভ আইটি পরিবারের সদস্য। তাই শিক্ষার্থীদের যেকোনো গঠনমূলক মন্তব্য আমাদের ভুল-ত্রুটি শুধরে সামনে এগিয়ে চলার পথে প্রেরণা যোগায়।</p>
+                        </div>
+                    </div>
+                    <CourseReview />
                 </div>
             </section>
         </Layout>

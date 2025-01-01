@@ -49,9 +49,6 @@ const Header = () => {
                   <NavLink to='/our-courses' className="nav-link header_nav_link" href="">কোর্স সমূহ</NavLink>
                 </li>
                 <li className="nav-item me-lg-3">
-                  <NavLink to='/' className="nav-link header_nav_link">ফ্রিল্যান্সিং</NavLink>
-                </li>
-                <li className="nav-item me-lg-3">
                   <NavLink to='/contact' className="nav-link header_nav_link">যোগাযোগ</NavLink>
                 </li>
               </ul>
