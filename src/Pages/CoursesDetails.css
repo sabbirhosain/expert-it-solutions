@@ -81,3 +81,116 @@
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+
+
+/* ============ Course Curriculum Section ============= */
+.course_curriculum_section {
+    padding: 50px 0;
+}
+
+.course_curriculum {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 20px;
+}
+
+.course_curriculum_title {
+    color: black;
+    font-family: var(--secondery-fonts);
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.course_admission {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 20px;
+}
+
+.course_admission_title {
+    color: black;
+    font-family: var(--secondery-fonts);
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.course_admission_paragrph {
+    color: #575757;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0 20px 0;
+}
+
+.course_admission_online {
+    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.course_admission_online:hover {
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+
+.course_admission_online_title {
+    color: white;
+    font-family: var(--secondery-fonts);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.course_admission_online_sub_title {
+    color: white;
+    font-family: var(--secondery-fonts);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 0 10px 0;
+}
+
+.course_admission_online_btn {
+    color: red;
+    padding: 8px 16px;
+    width: 100%;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.course_admission_online:hover .course_admission_online_title {
+    color: black;
+}
+
+.course_admission_online:hover .course_admission_online_sub_title {
+    color: black;
+}
+
+.course_admission_online:hover .course_admission_online_btn {
+    color: white;
+    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+}
+
+.course_admission_online_saminar_btn {
+    color: white;
+    padding: 8px 16px;
+    width: 100%;
+    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.course_admission_online_saminar_btn:hover {
+    color: #ff1e1e;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}

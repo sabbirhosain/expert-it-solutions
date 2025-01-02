@@ -1,6 +1,8 @@
 import Layout from "../Components/Layout/Layout"
-import course_details_img from '../assets/course_1.jpg'
+import course_details_img from '../assets/course_1.jpg';
+import { AiOutlineCheckSquare } from "react-icons/ai";
 import "./CoursesDetails.css"
+import CourseReview from "../Components/CourseReview/CourseReview";
 const CoursesDetails = () => {
     return (
         <Layout>
@@ -38,7 +40,84 @@ const CoursesDetails = () => {
                     </div>
                 </div>
             </section>
-        </Layout>
+
+            <section className="course_curriculum_section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="course_curriculum">
+                                <div className="row">
+                                    <h2 className="course_curriculum_title">কোর্স কারিকুলাম</h2>
+                                    <div className="col-md-6">
+                                        <ul>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">Raster To Vector</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">Certificate Template Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">Brochure Layout</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">Desk & Wall Calendar Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">T-Shirt Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">T-Shirt Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">T-Shirt Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">T-Shirt Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">T-Shirt Design</span></li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <ul>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">Raster To Vector</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">Certificate Template Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">Brochure Layout</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">Desk & Wall Calendar Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">T-Shirt Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">T-Shirt Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">T-Shirt Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">T-Shirt Design</span></li>
+                                            <li className="d-flex align-items-center gap-2 mb-1"><AiOutlineCheckSquare /> <span className="">T-Shirt Design</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="course_admission">
+                                <div className="row">
+                                    <h2 className="course_admission_title">ভর্তি চলছে!</h2>
+                                    <p className="course_admission_paragrph">অফলাইন (সরাসরি ইনস্টিটিউট) বা অনলাইন (লাইভ ক্লাস)- যে কোন ব্যাচে সুবিধামতো সময় বেছে নিয়ে ভর্তি হতে পারেন এখনই।</p>
+                                    <div className="col-md-6">
+                                        <div className="course_admission_online">
+                                            <h4 className="course_admission_online_title">কোর্স ফি (অফলাইন)</h4>
+                                            <h6 className="course_admission_online_sub_title">৳ ৫০,০০০ টাকা</h6>
+                                            <button type="submit" className="course_admission_online_btn">Enroll Now</button>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="course_admission_online">
+                                            <h4 className="course_admission_online_title">কোর্স ফি (অফলাইন)</h4>
+                                            <h6 className="course_admission_online_sub_title">৳ ৫০,০০০ টাকা</h6>
+                                            <button type="submit" className="course_admission_online_btn">Enroll Now</button>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-12">
+                                        <button type="submit" className="course_admission_online_saminar_btn">ফ্রি সেমিনার</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className='our_cources_review_section'>
+                <div className="container">
+                    <div className="row justify-content-center mb-5">
+                        <div className="col-md-8">
+                            <h1 className='our_cources_review_title'>মন্তব্য</h1>
+                            <p className='our_cources_review_peragraph'>আমরা বিশ্বাস করি আমাদের প্রতিটি শিক্ষার্থী ক্রিয়েটিভ আইটি পরিবারের সদস্য। তাই শিক্ষার্থীদের যেকোনো গঠনমূলক মন্তব্য আমাদের ভুল-ত্রুটি শুধরে সামনে এগিয়ে চলার পথে প্রেরণা যোগায়।</p>
+                        </div>
+                    </div>
+                    <CourseReview />
+                </div>
+            </section>
+        </Layout >
     )
 }
 

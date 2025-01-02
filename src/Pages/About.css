@@ -1,0 +1,302 @@
+.about_section {
+    padding: 50px 0;
+}
+
+.about_sec_title {
+    color: #cf0000;
+    font-family: var(--secondery-fonts);
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.about_sec_peragraph {
+    color: #575757;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ========= About Expert It ============ */
+.about_expert_it_section {
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.about_sub_heading {
+    font-size: 22px;
+    font-family: var(--secondery-fonts);
+    font-weight: 600;
+    background: #ffffff;
+    background: -webkit-linear-gradient(24deg, #ff1e1e 35%, #ff8079 100%);
+    background-clip: border-box;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about_heading {
+    color: #1f1e1e;
+    font-family: var(--secondery-fonts);
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 54px;
+    padding-top: 7px;
+    padding-bottom: 16px;
+}
+
+.about_paragraph {
+    font-family: var(--secondery-fonts);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.about_sec_btn {
+    font-family: var(--secondery-fonts);
+    color: #fff;
+    background: linear-gradient(214.38deg, #ff8079 -2.24%, #ff1e1e 59.38%);
+    border-radius: 10px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 15px 44px;
+}
+
+.aboout_sec_img_box {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 20px;
+}
+
+.about_sec_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ============ Expert It Certificate Section ==========*/
+.about_expert_it_certificate {
+    padding: 50px 0;
+}
+
+.aboout_expert_img_box {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 20px;
+}
+
+.about_expert_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about_heading {
+    color: #1f1e1e;
+    font-family: var(--secondery-fonts);
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 54px;
+    padding-top: 7px;
+    padding-bottom: 16px;
+}
+
+.about_paragraph {
+    font-family: var(--secondery-fonts);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+/* ======== Our Team Section ===== */
+
+.team-area .single-item {
+    margin-bottom: 30px;
+}
+
+.team-area .item .thumb {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.team-area .item .thumb::after {
+    background: #232323 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    width: 100%;
+}
+
+.team-area .team-items .item:hover .thumb::after {
+    opacity: 0.7;
+}
+
+.team-area .item .thumb .overlay {
+    top: -100%;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    width: 100%;
+    z-index: 1;
+}
+
+.team-area .item:hover .thumb .overlay {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.team-area .item .thumb .overlay p {
+    color: #ffffff;
+}
+
+.team-area .item .thumb .overlay h4 {
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.team-area .item .thumb img {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.team-area .item:hover .thumb img {
+    opacity: .6;
+}
+
+.team-area .item .thumb .social li {
+    display: inline-block;
+}
+
+.team-area .item .thumb .social li a {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 2px;
+    text-align: center;
+    width: 40px;
+}
+
+.team-area .info {
+    background: #ffffff none repeat scroll 0 0;
+    -moz-box-shadow: 0 0 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    -o-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    padding: 40px 20px 20px;
+    position: relative;
+    text-align: center;
+    z-index: 9;
+}
+
+.team-area .info .message {
+    height: 50px;
+    line-height: 40px;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 50px;
+}
+
+.team-area .info .message a {
+    background: #fff none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 0 0 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    -o-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    box-sizing: border-box;
+    color: #ff5a6e;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+}
+
+.team-area .info .message a i {
+    font-weight: 500;
+}
+
+.team-area .info h4 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.team-area .info span {
+    color: #ff5a6e;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.team-area .social li.twitter a {
+    background-color: #00b6f1;
+}
+
+.team-area .social li.pinterest a {
+    background-color: #bd081c;
+}
+
+.team-area .social li.facebook a {
+    background-color: #3b5998;
+}
+
+.team-area .social li.google-plus a {
+    background-color: #df4a32;
+}
+
+.team-area .social li.vimeo a {
+    background-color: #1ab7ea;
+}
+
+.team-area .social li.instagram a {
+    background-color: #cd486b;
+}
